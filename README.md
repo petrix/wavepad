@@ -19,6 +19,8 @@ Install
 
 ```
 npm install
+
+npm install --save-dev jshint gulp-jshint
 ```
 
 Build
