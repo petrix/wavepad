@@ -1,0 +1,18 @@
+{
+  "lang": "en",
+  "name": "Wave-PD1",
+  "short_name": "WPD1",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "images/iOS-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
