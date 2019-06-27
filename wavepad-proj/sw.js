@@ -9,12 +9,12 @@ self.addEventListener('install', event => {
         caches.open(staticCacheName).then(cache => {
             // cache all the static assets required for offline use.
             return cache.addAll([
-                './',
-                'index.html',
-                'js/bundle.js',
-                'css/styles.css',
-                'favicon.ico',
-                'images/iOS-144.png'
+                // './',
+                // 'index.html',
+                // 'js/bundle.js',
+                // 'css/styles.css',
+                // 'favicon.ico',
+                // 'images/iOS-144.png'
             ]);
         }).then(() => {
             // activate the new service worker immediately, without waiting for next load.

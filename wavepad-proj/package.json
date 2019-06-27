@@ -2,7 +2,7 @@
   "name": "wavepad-proj",
   "version": "1.0.0",
   "description": "",
-  "main": "sw.js",
+  "main": "js/app.js",
   "scripts": {
     "build": "browserify js/app.js -t scssify | uglifyjs -cm -o js/bundle.js",
     "watch": "watchify js/app.js -t scssify -o js/bundle.js"
